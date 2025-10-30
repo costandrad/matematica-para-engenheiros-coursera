@@ -2,10 +2,10 @@
 
 #show: template.with(
   book: (
-    title: [Título do Livro],
+    title: [Matemática para Engenheiros],
     author: (
-      long: [Nome Sobrenome],
-      short: [Sobrenome, N.]
+      long: [Coursera],
+      short: [Coursera]
     )
   ),
   author: [Igo da Costa Andrade]

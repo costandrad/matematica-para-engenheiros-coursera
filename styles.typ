@@ -1,4 +1,4 @@
-#let primary-color = rgb("#f00024")
+#let primary-color = rgb("#0056d2")
 
 #let fmt(number, precision: 3,  sci: true) = {
   if number == 0 {
@@ -49,7 +49,6 @@
   )
 
   #upper[
-    #text(size: 14pt, weight: 500)[Resolução Comentada dos Exercícios de]\
     #text(size: 24pt, weight: 700, fill: primary-color)[#book-title]\
     #text(size: 16pt, weight: 500)[de]\
     #text(size: 20pt, weight: 700, fill: primary-color)[#book-author]
@@ -237,6 +236,8 @@
         strong(text(primary-color)[#sec.#it.])
       }
   })
+
+  set math.mat(align: right)
 
   
   body
